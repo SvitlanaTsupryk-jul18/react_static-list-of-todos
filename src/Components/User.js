@@ -2,7 +2,7 @@ import React from 'react';
 import users from './users';
 
 function User(props) {
-    let user = users.find(item => item.id === props.id);
+    const user = users.find(item => item.id === props.id);
 
     return (
         <div>

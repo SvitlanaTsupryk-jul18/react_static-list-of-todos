@@ -22,19 +22,19 @@
 .App-link {
   color: #61dafb;
 }
-.done{
+.done {
   background-color: greenyellow;
 }
-li{
+li {
   list-style: none;
   display: flex;
   text-align: left;
   text-transform: capitalize;
 }
-.left{
+.left {
   width: 70%;
 }
-.list{
+.list {
   padding-right: 20px;
 }
 @keyframes App-logo-spin {
