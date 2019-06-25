@@ -28,13 +28,11 @@
 li{
   list-style: none;
   display: flex;
+  text-align: left;
+  text-transform: capitalize;
 }
 .left{
   width: 70%;
-}
-.todo{
-  text-align: left;
-  text-transform: capitalize;
 }
 .list{
   padding-right: 20px;
