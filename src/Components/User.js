@@ -2,7 +2,8 @@ import React from 'react';
 import users from './users';
 
 function User(props) {
-    let user = users.filter((item) => item.id === props.id)[0];
+    let user = users.find(item => item.id === props.id);
+
     return (
         <div>
             {user.username}
