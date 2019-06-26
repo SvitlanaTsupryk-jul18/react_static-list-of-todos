@@ -1,8 +1,7 @@
 import React from 'react';
 import User from './User'
 
-function TodoItem(props) {
-    const { userId, title, completed } = props;
+const TodoItem = ({ userId, title, completed }) => {
     return (
         <li className={completed ? "done" : "not"}>
             <div className="left">{title}</div>
