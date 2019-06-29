@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import TodoList from './Components/TodoList'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header>
         <h1 style={{ textTransform: 'uppercase' }}>Todos list</h1>
       </header>
-
+      <TodoList />
     </div>
   );
 }
